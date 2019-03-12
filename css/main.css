@@ -1,0 +1,441 @@
+body{
+    font-family:monospace;
+}
+
+
+
+#nav
+{
+    width:100%;
+    min-height:60px;
+}
+
+.title
+{
+    display:none;
+    color:black;
+
+    font-size:25px;
+    width:350px;
+    margin-top:6px;
+    margin-left:150px;
+    font-weight:bold;
+    float: right;
+}
+
+
+#navigation li 
+{ 
+
+    display:block;
+    float: left;
+    
+    padding:15px 15px;
+
+}
+#nav a
+
+{
+    font-size: 19px; 
+    text-decoration:none;
+    color:rgb(7, 163, 111);
+    transition: font-size 0.5s;
+
+} 
+#nav a:hover 
+{
+    color:rgba(230, 164, 66, 0.966);
+    font-size: 22px;
+}
+.span-logo{
+
+    
+}
+
+
+
+
+
+.Section{
+
+    padding:50px;
+
+}
+
+/* New Arrival Start*/
+#newArrival{
+    background-image: url(../assets/backCover.jpg);
+        background-size:contain;
+}
+.newArr::first-letter{
+    font-size: 200%;
+    color:rgb(7, 163, 111);
+
+
+
+}
+
+
+
+.Textcontent{
+
+    color:rgba(230, 164, 66, 0.966);
+    text-align:center;
+
+}
+
+.topHeading{
+    font-family:bitner;
+    font-size:22px;
+}
+.belowText{
+    font-size:40px;
+}
+.moreButton{
+    color:rgb(7, 163, 111);
+    background-color:#fff;
+    padding-top:10px;padding-bottom:10px;padding-left:25px;padding-right:25px;
+    border-style:none;
+    border-radius:20px;
+    text-decoration:none;
+    text-align:center;
+}
+.btnMore a:hover{
+    background-color:rgba(230, 164, 66, 0.966);
+    color:#fff;
+}
+/* New Arrival Start*/
+
+
+/* Hot Items Start*/
+
+.stylFont{
+    font-family:Brush Script MT;
+}
+.TextcontentForWhite{
+    color:rgb(7, 163, 111);
+    text-align:center;
+    padding-top:5%;
+    font-size:20px;
+
+}
+#hr{
+    width:35%;
+}
+
+.grid-container{
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    padding: 10px;
+}
+
+.grid-container img{
+
+    width:200px;
+    min-height:200px;
+
+}
+.grid-container h3{
+    color:rgb(7, 163, 111);
+    font-size: 18px;
+
+}
+.grid-container p{
+    font-size:23px;
+    color:rgb(7, 163, 111);
+}
+
+
+.grid-item {
+
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.grid-item2 {
+
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+
+    float:left;
+    width:30%;
+
+    min-height: 325px;
+}
+.grid-item2 h3
+{
+    font-size: 18px;
+    color:rgb(7, 163, 111);
+}
+.grid-item img:hover{
+    cursor:pointer;
+}
+
+.btnMoreInfo{
+    background-color:#fff;
+    padding-top:10px;padding-bottom:10px;padding-left:25px;padding-right:25px;
+    border-style:solid;
+    border-color:rgb(7, 163, 111);
+    border-radius:20px;
+    text-decoration:none;
+    font-size:12px;
+}
+
+.btnMoreInfo a{
+    text-decoration:none;
+    color:#6A6A6A;
+
+}
+
+
+
+/* Hot items End*/
+
+/*contact sTART*/
+
+.contactUsGridContainer{
+    min-height: 200px;
+    background-color:rgb(7, 163, 111);
+    padding:50px;
+
+}
+
+.contactUsGridContainer img{
+    padding-top:20px;
+
+    float:right;
+
+}
+
+.contactUSContent{
+margin-bottom: 50px;
+    margin-top: 50px;
+}
+.contactUSContent{
+    color:#fff;
+}
+.contactUSContent h1{
+    font-family:Brush Script MT;
+
+}
+.contactUSContent p{
+    font-size:23px;
+}
+.btnContact a{
+    text-decoration:none;
+    color:#6A6A6A;
+    background-color:#fff;
+    padding-top:5px;padding-bottom:5px;
+    padding-left:20px;padding-right:20px;
+    border-top-right-radius:20px;
+    border-bottom-right-radius:20px;
+}
+.btnContact a:hover{
+    background-color:#F59A8B;
+    color:#fff;
+    border-style:solid;
+
+
+}
+
+
+/*contact end*/
+
+
+/*Footer*/
+.footer{
+ width:100%;
+     overflow: auto;
+    
+
+}
+.FooterText{
+    text-align:center;
+    font-size: 14px;
+}
+
+
+/*Footer*/
+
+
+
+/**COntact US*/
+.txtField{
+    height:50px;
+    width:500px;
+    font-size:14px;
+    color:#6A6A6A;
+
+
+}
+.heading{
+    text-align:center;
+    color:#6A6A6A;
+}
+.Fields{
+    padding-top:20px;
+}
+.contactUsContent{
+    text-align:center;
+}
+.txtArea{
+    width:500px;
+    height:200px;
+    font-size:14px;
+    color:#6A6A6A;
+}
+
+.btnSubmit{
+    text-decoration:none;
+    color:#fff;
+    background-color:#F59A8B;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:30px;
+    padding-right:30px;
+    border-radius:20px;
+
+
+}
+
+
+
+/**COntact US*/
+
+
+/*Aboout*/
+.contentAbout{
+    color:#6A6A6A;
+    padding-top:20px;
+    text-align:center;
+  font-size: 15px;
+    font-weight: normal;
+    padding-left:45px;
+    padding-right:45px;
+    word-break:break-all;
+}
+
+.aboutBanner{
+    background-color:black;
+    padding:50px;
+    font-family:Brush Script MT;
+    color:#fff;
+    font-size:30px;
+    text-align:center;
+}
+
+
+/*Reviews**/
+
+.grid-item h6{
+    color:#8C8C8C;
+}
+
+
+
+
+/*Reviews End*/
+
+
+/*TBl Comparison**/
+
+table
+{
+    width:40%;
+    margin: 0px auto;
+}
+
+
+
+table, th, td {
+    border: 1px solid #6A6A6A;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+    background-color: #fff;
+}
+table#t01 th {
+    background-color: black;
+    color: white;
+}
+
+.tblImg img{
+    width:15%;
+    height:15%;
+}
+
+.tblTop{
+    color:#6A6A6A;
+    padding-left:30px;
+    text-align:center;
+    font-size:40px;
+}
+
+/*TBl Comparison**/
+
+
+/**Site Map*/
+
+.siteMap a{
+    text-decoration:none;
+}
+.siteMap{
+    padding-left:45%;
+}
+
+
+.testi
+{
+    width:150px !important;
+    height:150px !important;
+}
+
+.rev
+{
+    font-size: 14px !important;
+
+
+}
+
+
+.logo a{
+   
+     color:rgb(7, 163, 111) !important;
+    font-weight:bold;
+   
+}
+
+
+
+@media screen and (max-width: 700px) {
+ #navigation li
+    {
+        float: none;
+        text-align: center;
+    }
+    #newArrival
+    {
+        background-image: none;
+        background-color: #FF3A90;
+    }
+    .grid-item2
+    {
+        width:100%;
+    }
+}
+
+
+
+
